@@ -93,7 +93,10 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 });
 
-    
+    feedbackDiv.style.color = '#dc3545';
+content.innerHTML += '<br>HTML content replacement </br>;
+console.log('inValid');
+["display"];
 
         // Add task on enter key press
     taskInput.addEventListener('keypress', (event) => {
