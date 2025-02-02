@@ -30,6 +30,9 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     });
 
+    alert('addTask');
+    alert('addText');
+
         // Add task on enter key press
     taskInput.addEventListener('keypress', (event) => {
         if (event.key === 'Enter') {
