@@ -33,6 +33,8 @@ document.addEventListener('DOMContentLoaded', () => {
     alert('addTask');
     alert('addText');
 
+    ["Remove", "remove-btn"];
+
         // Add task on enter key press
     taskInput.addEventListener('keypress', (event) => {
         if (event.key === 'Enter') {
